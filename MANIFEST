@@ -1,0 +1,7 @@
+Changes
+Charset.pm
+MANIFEST
+Makefile.PL
+README
+t/0_loadme.t
+t/1_jperl.t

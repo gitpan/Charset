@@ -1,0 +1,41 @@
+Charset version 0.01
+====================
+
+NAME
+       Charset - write perl codes in any encodings you like
+
+SYNOPSIS
+         use Charset qw(euc-jp); # Jperl!
+         #...
+         sub tricky{
+            no Charset;
+            #...
+         }
+
+ABSTRACT
+       This module allows you to write your perl codes in not
+       only ASCII (or EBCDIC where your environment allows) or
+       UTF-8 but any character encodings that Encode module sup-
+       ports.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires perl 5.7.3 or later.
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2002 Dan Kogai <dankogai@dan.co.jp>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+
